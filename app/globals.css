@@ -32,16 +32,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ── LAYOUT ── */
 
 .container {
   max-width: 1100px;
   margin: 0 auto;
 }
 
-/* ── FORM FIELD STYLES ── */
 
-/* Bordered wrapper that holds both label + input inside */
 .form-field {
   @apply w-full rounded-[4px] bg-white;
   border: 1px solid var(--border-color) !important;
@@ -56,7 +53,6 @@ body {
   color: var(--text-muted);
 }
 
-/* Shared base for all inputs inside .form-field */
 .form-input {
   @apply w-full text-[14px] outline-none border-none p-0 bg-transparent;
   border: none !important;
@@ -82,7 +78,6 @@ body {
   resize: vertical;
 }
 
-/* Specific wrapper for textarea to ensure it scales correctly */
 .form-field-textarea {
   @apply w-full rounded-[4px] bg-white;
   border: 1px solid var(--border-color) !important;
@@ -100,7 +95,6 @@ body {
   @apply flex-1;
 }
 
-/* ── CONTACT SECTION ── */
 
 .contact-section {
   padding: 60px 40px;
@@ -118,7 +112,6 @@ body {
 
 .contact-img-box {
   flex: 1;
-  /* height: 425px; */
   width: 850px;
   border-radius: 4px;
   overflow: hidden;
@@ -178,7 +171,6 @@ body {
   margin: 14px 0 10px;
 }
 
-/* Checkbox + Captcha row */
 .checkbox-captcha-row {
   display: flex;
   align-items: flex-start;
@@ -226,7 +218,6 @@ body {
   margin-top: 2px;
 }
 
-/* Submit button */
 .btn-submit {
   background: var(--primary-btn);
   color: #fff;
@@ -240,7 +231,6 @@ body {
   gap: 8px;
 }
 
-/* ── TRUST BAR ── */
 
 .trust-bar {
   position: relative;
@@ -274,7 +264,6 @@ body {
   border-radius: 2px;
 }
 
-/* ── CTA SECTION ── */
 
 .cta-section {
   background-color: #CED2FE;
@@ -357,7 +346,6 @@ body {
   gap: 8px;
 }
 
-/* ── FOOTER INTRO ── */
 
 .footer-intro {
   background: var(--dark-bg);
@@ -376,7 +364,6 @@ body {
   margin-top: 4px;
 }
 
-/* ── FOOTER ── */
 
 .footer {
   position: relative;
@@ -470,7 +457,6 @@ body {
   color: #fff;
 }
 
-/* Footer bottom bar */
 .footer-bottom {
   border-top: 1px solid var(--dark-border);
   padding: 16px 0;
