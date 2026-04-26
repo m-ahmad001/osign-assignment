@@ -2,24 +2,20 @@ export default function Home() {
   return (
     <main>
 
-      {/* ── CONTACT SECTION ── */}
       <section className="contact-section container">
 
-        {/* Left: two images side by side */}
         <div className="contact-images">
           <div className="contact-img-box w-full h-full">
             <img className="contact-img-light w-full h-full" src="/side-image.png" alt="side-image" />
           </div>
         </div>
 
-        {/* Right: contact form */}
         <div className="contact-form">
           <p className="contact-label">Kontakt</p>
           <h1 className="contact-heading">Headline 1</h1>
           <p className="contact-sub">Haben Sie eine Frage oder ein Projekt im Sinn?</p>
           <p className="contact-sub-last">Senden Sie uns eine Nachricht, und wir werden uns in Kürze bei Ihnen melden.</p>
 
-          {/* Row 1: Anrede + Name */}
           <div className="form-row">
             <div className="form-group">
               <div className="form-field">
@@ -40,7 +36,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Row 2: Position + Unternehmen on left, Ihre Nachricht textarea on right */}
           <div className="form-row">
             <div className="form-group" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
               <div className="form-field">
@@ -59,13 +54,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          {/* Separator */}
           <p className="contact-separator">
             Hinterlassen Sie Ihre Kontaktdaten – wir melden uns zeitnah bei Ihnen.
           </p>
 
-          {/* Row 3: E-Mail + Telefonnummer */}
           <div className="form-row" style={{ marginBottom: "16px" }}>
             <div className="form-group">
               <div className="form-field">
@@ -81,7 +73,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Checkbox + Captcha row */}
           <div className="checkbox-captcha-row">
             <label className="consent-label">
               <input type="checkbox" className="consent-checkbox" />
@@ -89,7 +80,6 @@ export default function Home() {
                 Ich stimme zu, dass meine Angaben und Daten zur Beantwortung meiner Anfrage elektronisch erhoben und gespeichert werden.
               </span>
             </label>
-            {/* Captcha placeholder */}
             <div className="captcha-box">
               <input type="checkbox" />
               <span>Ich bin ein Mensch</span>
@@ -100,7 +90,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Submit button */}
           <div style={{ display: "flex", justifyContent: "flex-end" }}>
             <button className="btn-submit">
               Anfrage senden →
@@ -109,7 +98,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── TRUST BAR ── */}
       <section className="trust-bar">
         <div className="trust-bar-inner container">
           {[
@@ -136,11 +124,9 @@ export default function Home() {
       <section className="h-20 bg-[#CED2FE]/20">
 
       </section>
-      {/* ── CTA SECTION ── */}
       <section className="cta-section">
         <div className="cta-inner container">
 
-          {/* Left text */}
           <div className="cta-left">
             <h2 className="cta-heading">
               Try <strong style={{ color: "#1a1aff" }}>OSIGN®</strong> free and without obligation – for 60 days <span style={{ fontSize: "24px" }}>↗</span>
@@ -155,7 +141,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right box */}
           <div className="cta-right">
             <p className="cta-right-text">
               You can test the <strong>full range of OSIGN®</strong> features free of charge and without obligation for <strong>60 days</strong>. During this time, you will already benefit from <strong>all advantages of OSIGN®</strong>.
@@ -167,7 +152,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── FOOTER INTRO ── */}
       <section className="footer-intro">
         <div className="container">
           <p className="footer-intro-title">Who is behind OSIGN?</p>
@@ -175,14 +159,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── FOOTER ── */}
       <footer className="footer">
         <div className="container">
 
-          {/* Columns */}
           <div className="footer-columns">
 
-            {/* Solutions */}
             <div className="footer-col">
               <h4 className="footer-col-title">Solutions</h4>
               <ul className="footer-col-list">
@@ -193,7 +174,6 @@ export default function Home() {
               </ul>
             </div>
 
-            {/* Comparisons */}
             <div className="footer-col">
               <h4 className="footer-col-title">Comparisons</h4>
               <ul className="footer-col-list">
@@ -208,7 +188,6 @@ export default function Home() {
               </ul>
             </div>
 
-            {/* Industries */}
             <div className="footer-col">
               <h4 className="footer-col-title">Industries</h4>
               <ul className="footer-col-list">
@@ -227,7 +206,6 @@ export default function Home() {
               </ul>
             </div>
 
-            {/* Inventories + Contact */}
             <div className="footer-col">
               <h4 className="footer-col-title">Inventories</h4>
               <ul className="footer-col-list">
@@ -250,7 +228,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Bottom bar */}
           <div className="footer-bottom">
             <p className="footer-copyright">2026 OSIGN® a brand of OTOKO® – All rights reserved.</p>
             <div className="footer-links">
