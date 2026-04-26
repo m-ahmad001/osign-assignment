@@ -277,9 +277,14 @@ body {
 /* ── CTA SECTION ── */
 
 .cta-section {
-  background: #CED2FE;
+  background-color: #CED2FE;
+  background-image: url('/cta-bg.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 100%;
   padding: 60px 40px;
 }
+
 
 .cta-inner {
   display: flex;
@@ -327,9 +332,9 @@ body {
 
 .cta-right {
   flex: 0 0 340px;
-  background: rgba(255, 255, 255, 0.4);
   border-radius: 6px;
   padding: 24px;
+  z-index: 100;
 }
 
 .cta-right-text {
