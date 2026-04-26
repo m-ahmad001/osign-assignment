@@ -133,6 +133,9 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="h-20 bg-[#CED2FE]/20">
+
+      </section>
       {/* ── CTA SECTION ── */}
       <section className="cta-section">
         <div className="cta-inner container">

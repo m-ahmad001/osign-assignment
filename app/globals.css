@@ -5,9 +5,9 @@
   --foreground: #171717;
   --primary: #1a1aff;
   --primary-btn: #1a6bff;
-  --dark-bg: #0a0e2a;
+  --dark-bg: #040C64;
   --dark-border: #1a2040;
-  --cta-bg: #dde8ff;
+  --cta-bg: #CED2FE;
   --text-muted: #555;
   --text-light: #7a8aaa;
   --border-color: #ddd;
@@ -277,7 +277,7 @@ body {
 /* ── CTA SECTION ── */
 
 .cta-section {
-  background: linear-gradient(135deg, #dde8ff 0%, #e8eeff 100%);
+  background: #CED2FE;
   padding: 60px 40px;
 }
 
@@ -374,10 +374,34 @@ body {
 /* ── FOOTER ── */
 
 .footer {
-  background: var(--dark-bg);
+  position: relative;
+  background-color: #020632;
   border-top: 1px solid var(--dark-border);
   padding: 50px 40px 0;
+  overflow: hidden;
 }
+
+.footer::before {
+  content: "";
+  position: absolute;
+  left: -22rem;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url('/footer-bg.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: auto 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.footer .container {
+  position: relative;
+  z-index: 1;
+}
+
+
 
 .footer-columns {
   display: flex;
